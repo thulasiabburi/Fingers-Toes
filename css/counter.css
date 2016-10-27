@@ -1,0 +1,67 @@
+#fingers,#toes{
+	width:100px;
+	padding: 3px 10px !important;
+    line-height: 1.7;
+}
+.highlight{
+	background: rgba(255, 230, 0, 0.5);
+    padding: 3px 10px !important;
+    line-height: 1.7;
+    border-radius: 5px;
+}
+.counter-form {
+    margin:10px auto;
+    max-width: 400px;
+    padding: 20px 12px 10px 20px;
+    font: 13px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	border: 1px solid #ccc;
+}
+.counter-form li {
+    padding: 0;
+    display: block;
+    list-style: none;
+    margin: 10px 0 0 0;
+}
+.counter-form label{
+    margin:0 0 3px 0;
+    padding:0px;
+    display:block;
+    font-weight: bold;
+}
+.counter-form input[type=text], 
+.counter-form input[type=number]{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border:1px solid #BEBEBE;
+    padding: 7px;
+    margin:0px;
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+    outline: none;  
+}
+.counter-form input[type=text]:focus, 
+.counter-form input[type=number]:focus{
+    -moz-box-shadow: 0 0 8px #88D5E9;
+    -webkit-box-shadow: 0 0 8px #88D5E9;
+    box-shadow: 0 0 8px #88D5E9;
+    border: 1px solid #88D5E9;
+}
+.counter-form input[type=button]{
+    border: none;
+    padding: 8px 15px 8px 15px;
+    background: #4B99AD;
+    color: #fff;
+    box-shadow: 1px 1px 4px #DADADA;
+    -moz-box-shadow: 1px 1px 4px #DADADA;
+    -webkit-box-shadow: 1px 1px 4px #DADADA;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+}
+.counter-form input[type=button]:hover{
+    background: #4691A4;
+    color: #fff;
+}
